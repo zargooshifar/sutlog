@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">سوتلاگ</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+
+    <string name="application_error">خطای برنامه: %1$s</string>
+    <string name="buy_button">خرید برنامه</string>
+    <string name="retry_button">تلاش مجدد</string>
+    <string name="quit_button">خروج</string>
+    <string name="download_myket_button">دانلود مایکت</string>
+    <string name="update_myket_button">به‌روزرسانی مایکت</string>
+    <string name="unlicensed_dialog_title">صدور مجوز</string>
+    <string name="unlicensed_dialog_body">شما مجوز استفاده از را ندارید. لطفا ابتدا برنامه را از مایکت خریداری نمایید</string>
+    <string name="unlicensed_dialog_update_myket_body">برای استفاده از این برنامه، باید برنامه‌ی مایکت خود را به‌روزرسانی کنید</string>
+    <string name="unlicensed_dialog_download_myket_body">برای استفاده از این برنامه، باید برنامه‌ی مایکت را روی دستگاه خود نصب کنید</string>
+    <string name="unlicensed_dialog_retry_body">مشکلی به وجود آمده است، اتصال دستگاه خود به اینترنت را بررسی کنید و مجددا تلاش نمایید</string>
+</resources>

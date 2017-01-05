@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "574267388262",
+    "firebase_url": "https://sutlog-b467b.firebaseio.com",
+    "project_id": "sutlog-b467b",
+    "storage_bucket": "sutlog-b467b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574267388262:android:25414cd7671021f8",
+        "android_client_info": {
+          "package_name": "ir.zarg.serendipity.sutlog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574267388262-1eo0vdmjtg7bmejtqj4504k42np4hin5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmRSCBSJPCIDXk88BFetNKuBUE3ooJnJo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

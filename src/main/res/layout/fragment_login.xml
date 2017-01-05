@@ -1,0 +1,110 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="ir.zarg.serendipity.sutlog.fragments.startFragments.loginFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#EEEEEE"
+        android:elevation="5sp"
+        android:layoutDirection="ltr"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView2"
+                android:layout_centerHorizontal="true"
+                android:text="اپلیکیشن مدیریت حجم اینترنت دانشگاه صنعتی سهند"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="20sp"
+                android:text="سوتلاگ"
+                android:textColor="#000000"
+                android:textSize="70sp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20sp"
+            android:layout_marginTop="50sp"
+            android:background="#FAFAFA"
+            android:elevation="10sp"
+            android:orientation="vertical"
+            android:padding="20sp">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            >
+            <EditText
+                android:id="@+id/etUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:hint="نام کاربری"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:inputType="number" />
+        </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                >
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:ems="10"
+                android:hint="کلمه عبور"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <Button
+                android:id="@+id/bLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ورود"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36sp"
+            android:layout_marginRight="36sp"
+            android:textAlignment="textStart"
+            android:text="به علت مشکلات سرور های دانشگاه این اپلیکیشن از این به بعد فقط از طریق شبکه دانشگاه ( و خوابگاه ها) قابل استفاده خواهد بود"/>
+    </LinearLayout>
+
+</FrameLayout>
